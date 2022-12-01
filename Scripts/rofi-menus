@@ -3,7 +3,7 @@
 chosen=$(printf " Config Files\n Bitwarden\n Calculator" | rofi -dmenu -i -theme-str '@import "rofimenus.rasi"' 20 -p '⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀' )
 
 case "$chosen" in
-  " Config Files") $HOME/Others/Scripts/rofi-files ;;
+  " Config Files") $HOME/Others/Scripts/dmenu-files ;;
   " Bitwarden") $HOME/Others/Scripts/rofi-rbw ;;
   " Calculator") $HOME/Others/Scripts/rofi-calc ;;
   *) exit 1 ;;

@@ -1,6 +1,13 @@
 ##################################
 ############# PROMPT #############
 ##################################
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then 
+  exec startx &>/dev/null 
+fi
+
+##################################
+############# PROMPT #############
+##################################
 #6c7086
 PROMPT='%F{8}$%f '
 PROMPT='%F{#bb9af7}%1~%f %F{White}%f  '
@@ -34,17 +41,7 @@ alias ll='ls -l'
 alias ls='ls --color=auto'
 alias rm='sudo rm -r'
 alias cp='cp -r'
-
-# PACMAN
-#alias pr='sudo pacman -R'
-#alias prr='sudo pacman -Rns'
-#alias pro='sudo pacman -Rsn $(pacman -Qdtq)'
-#alias prc='sudo pacman -Sc'
-#alias pl='sudo pacman -S'
-#alias ps='pacman -Ss'
-#alias pq='pacman -Qeq'
-#alias pu='sudo pacman -Syu'
-#alias pacache='sudo du -sh /var/cache/pacman/pkg .cache/yay'
+alias wmclass='xprop | grep WM_CLASS'
 
 # GIT
 alias gs='git status'
@@ -54,16 +51,13 @@ alias gp='git push -u origin main'
 
 # XBPS
 alias xr='sudo xbps-remove'
-alias xrr='sudo xbps-remove -R'
-alias xro='sudo xbps-remove -o'
+alias xrr='sudo xbps-remove -Rcon'
+alias xro='sudo xbps-remove -Oo'
 alias xl='sudo xbps-install'
-alias xq='xbps-query -Rs'
+alias xq='xbps-query'
+alias xqrs='xbps-query -Rs'
 alias xu='xl -Su'
 alias xusrc='cd /home/andrade/Others/void-packages && git pull && ./xbps-src update-sys'
-
-# Folders
-alias scripts='ranger ~/Others/Scripts'
-alias steamapps='ranger .local/share/Steam/steamapps'
 
 # Aplicativos
 alias vim='nvim'

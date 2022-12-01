@@ -1,3 +1,13 @@
+##--------------- Dmenu Scripts --------------##
+# Dmenu Menus
+super + shift + c
+	~/Others/Scripts/dmenu-menus
+
+# Dmenu Power-Menu
+super + shift + x
+	~/Others/Scripts/dmenu-power-menu
+
+##--------------- Rofi Scripts ---------------##
 # Rofi App Launcher
 super + @space
         rofi -show drun
@@ -6,7 +16,7 @@ super + @space
 super + c
         ~/Others/Scripts/rofi-menus
 
-# Rofi Powermenu
+# Rofi Power-Menu
 super + x
         ~/Others/Scripts/power-menu.sh
 
