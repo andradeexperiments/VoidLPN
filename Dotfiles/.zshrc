@@ -5,6 +5,8 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
   exec startx &>/dev/null 
 fi
 
+CM_LAUNCHER=rofi
+
 ##################################
 ############# PROMPT #############
 ##################################
@@ -100,3 +102,4 @@ export XDEB_OPT_FIX_CONFLICT=true
 # PATH.
 #export PATH=$HOME/bin:$PATH
 
+source /home/andrade/.cache/bwsession

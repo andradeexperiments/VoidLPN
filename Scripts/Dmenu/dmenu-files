@@ -18,6 +18,7 @@ declare -a options=(
 "dwm blocks - $HOME/.config/dwm/dwmblocks/blocks.def.h"
 "dwm colors - $HOME/.config/dwm/themes/ericmurphy.h"
 "dwm autostart - $HOME/.dwm/autostart.sh"
+"dwm sxhkd - $HOME/.config/dwm-sxhkd/dwm-sxhkdrc"
 "polybar - $HOME/.config/polybar/config.ini"
 "polybar modules - $HOME/.config/polybar/modules.ini"
 "polybar colors - $HOME/.config/polybar/colors.ini"

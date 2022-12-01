@@ -1,11 +1,15 @@
 ##--------------- Dmenu Scripts --------------##
 # Dmenu Menus
-super + shift + c
-	~/Others/Scripts/dmenu-menus
+#super + shift + c
+#	~/Others/Scripts/Dmenu/dmenu-menus
 
 # Dmenu Power-Menu
-super + shift + x
-	~/Others/Scripts/dmenu-power-menu
+#super + shift + x
+#	~/Others/Scripts/Dmenu/dmenu-power-menu
+
+# Dmenu Clipmenu
+#super + shift + v
+#	clipmenu
 
 ##--------------- Rofi Scripts ---------------##
 # Rofi App Launcher
@@ -14,15 +18,19 @@ super + @space
 
 # Rofi Menus
 super + c
-        ~/Others/Scripts/rofi-menus
+        ~/Others/Scripts/Rofi/rofi-menus
 
 # Rofi Power-Menu
 super + x
-        ~/Others/Scripts/power-menu.sh
+       ~/Others/Scripts/Rofi/rofi-power-menu
 
 # Rofi Emoji
 super + period
 	rofi -show emoji -modi emoji
+
+# Rofi Clipmenu
+super + shift + v
+	clipmenu
 
 ##---------- Shortcut Applications ----------##
 

@@ -1,0 +1,10 @@
+#! /bin/sh
+
+chosen=$(printf " Config Files\n Calculator\n Void Packages" | rofi -dmenu -i -theme-str '@import "rofimenus.rasi"' 20 -p '⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀' )
+
+case "$chosen" in
+  " Config Files") $HOME/Others/Scripts/Rofi/rofi-files ;;
+  " Void Packages") $HOME/Others/Scripts/Rofi/rofi-srcscript ;;
+  " Calculator") $HOME/Others/Scripts/Rofi/rofi-calc ;;
+  *) exit 1 ;;
+esac

@@ -4,6 +4,7 @@ dwmblocks &
 sxhkd -c $HOME/.config/dwm-sxhkd/dwm-sxhkdrc &
 dunst &
 numlockx &
+clipmenud &
 #picom --config $HOME/.config/picom/picom.sample.conf --experimental-backends &
 nitrogen --restore &
 #pkill back4.sh &
