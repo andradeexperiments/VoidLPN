@@ -1,15 +1,19 @@
 ##--------------- Dmenu Scripts --------------##
+# Dmenu App Launcher
+super + shift + @space
+	dmenu_run
+
 # Dmenu Menus
-#super + shift + c
-#	~/Others/Scripts/Dmenu/dmenu-menus
+super + shift + c
+	~/Others/Scripts/Dmenu/dmenu-menus
 
 # Dmenu Power-Menu
-#super + shift + x
-#	~/Others/Scripts/Dmenu/dmenu-power-menu
+super + shift + x
+	~/Others/Scripts/Dmenu/dmenu-power-menu
 
 # Dmenu Clipmenu
-#super + shift + v
-#	clipmenu
+super + shift + v
+	clipmenu
 
 ##--------------- Rofi Scripts ---------------##
 # Rofi App Launcher

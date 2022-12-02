@@ -4,6 +4,6 @@ chosen=$(printf " Config Files\n Void Packages" | dmenu -i -p ' ' )
 
 case "$chosen" in
   " Config Files") $HOME/Others/Scripts/Dmenu/dmenu-files ;;
-  " Void Packages") $HOME/Others/Scripts/Dmenu/dmenu-srcscripts ;;
+  " Void Packages") $HOME/Others/Scripts/Dmenu/dmenu-srcscript ;;
   *) exit 1 ;;
 esac
