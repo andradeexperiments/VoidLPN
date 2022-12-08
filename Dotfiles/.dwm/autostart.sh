@@ -1,6 +1,7 @@
 #!/bin/bash
 
 dwmblocks &
+#$HOME/.config/polybar/launch.sh &
 sxhkd -c $HOME/.config/dwm-sxhkd/dwm-sxhkdrc &
 dunst &
 numlockx &

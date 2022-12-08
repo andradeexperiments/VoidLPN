@@ -33,6 +33,8 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 0,       0,           -1 },
 	{ "discord",  NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "Steam",    NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "obs",      NULL,       NULL,       1 << 5,       0,           -1 },
+	{ "audacity", NULL,       NULL,       1 << 4,       0,           -1 },
 };
 
 /* layout(s) */
