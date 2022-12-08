@@ -1,3 +1,3 @@
 <h1 align="center"> My Files For Void Linux Pixel Night! </h1>
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/105821940/204629128-d930f22a-dee0-498a-805d-6c0e73836604.png"/> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/105821940/206420801-4467d6b4-b796-492c-9f4a-dec2f03f97fa.png"/> </p>
