@@ -55,5 +55,3 @@ export XDEB_OPT_FIX_CONFLICT=true
 ############ PIPEWIRE ############
 ##################################
 export PIPEWIRE_LATENCY=128/48000
-
-source /home/andrade/.cache/bwsession

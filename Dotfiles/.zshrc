@@ -1,4 +1,10 @@
 ##################################
+############# NVIDIA #############
+##################################
+export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+export __GL_SHADER_DISK_CACHE_SIZE=100000000000
+
+##################################
 ############ CLIPMENU ############
 ##################################
 export CM_SELECTIONS="clipboard"
@@ -69,6 +75,7 @@ alias vis='cli-visualizer'
 alias updatedb='sudo updatedb'
 alias downgrade='sudo downgrade'
 alias neofetch='neofetch --source ~/Others/seahorse.txt'
+alias fl='sudo flatpak update'
 #neofetch --source ~/Others/seahorse.txt
 
 ##################################
