@@ -12,8 +12,8 @@ super + shift + x
 	~/Others/Scripts/Dmenu/dmenu-power-menu
 
 # Dmenu Clipmenu
-super + shift + v
-	clipmenu
+#super + shift + v
+#	clipmenu
 
 ##--------------- Rofi Scripts ---------------##
 # Rofi App Launcher

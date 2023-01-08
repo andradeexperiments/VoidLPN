@@ -10,4 +10,4 @@ clipmenud &
 nitrogen --restore &
 #pkill back4.sh &
 #back4.sh auto ~/Pictures/Wallpaper/Futuristic.gif &
-nohup easyeffects --gapplication-service 
+#nohup easyeffects --gapplication-service 

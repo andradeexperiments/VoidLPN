@@ -1,8 +1,8 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"   ", "~/Others/Scripts/weather.sh",		3600,		        0},
-	{"  ", "date '+%a %d %B' ",			5,	        	0},
+	{"   ", "~/Others/Scripts/weather.sh",		5,		        0},
+	{"  ", "date '+%a %d %B' ",			3500,	        	0},
 	{"  ", "date '+%I:%M ' ",			5,			0},
 };
 
